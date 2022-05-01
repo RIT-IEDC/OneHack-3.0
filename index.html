@@ -15,32 +15,34 @@
       </div>
       <div class="flex-none">
         <div class="menu menu-horizontal p-0">
-          <button class="btn btn-primary">Register</button>
+          <button class="btn btn-primary hidden md:block">Register</button>
           <img
-            src="./images/IEDC-Logo-white.png"
+            src="./images/iedc_rit_white.png"
             alt="IEDC logo"
-            width="100px"
-            class="mx-2 md:mx-8 hidden md:block"
+            width="70px"
+            class="mx-2 md:mx-8"
           />
         </div>
       </div>
     </div>
 
     <!-- Hero -->
-    <div class="hero min-h-[90vh] bg-base-200">
-      <div class="hero-content flex-col lg:flex-row-reverse">
+    <div
+      class="hero min-h-[90vh] md:min-h-[85vh] bg-base-200"
+      id="particles-js"
+    >
+      <div class="hero-content flex-col z-auto">
+        <h2 class="text-lg md:text-3xl pb-4 md:pb-8 text-center">
+          RAJIV GANDHI INSTITUTE OF TECHNOLOGY
+        </h2>
+        <h5 class="text-base md:text-2xl py-2">PRESENTS</h5>
         <img
-          src="https://api.lorem.space/image/movie?w=260&h=400"
-          class="max-w-sm rounded-lg shadow-2xl"
+          src="./images/onhack_3_0.png"
+          class="w-full max-w-screen-md rounded-lg"
         />
         <div>
           <h1 class="text-5xl font-bold">A 24 hours coding marathon</h1>
-          <p class="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button class="btn btn-primary block my-0 mx-auto md:mx-0">
+          <button class="btn btn-primary block my-0 mx-auto mt-10">
             Register
           </button>
         </div>
@@ -51,28 +53,80 @@
     <h1 class="text-5xl font-bold bg-slate-300 text-center py-10">
       What is OneHack?
     </h1>
-    <div class="hero bg-base-200">
+    <div class="hero">
       <div class="hero-content text-center">
-        <div class="">
-          <p class="py-6">
+        <div class="hero-content flex-col lg:flex-row">
+          <p class="py-6 lg:pr-10">
             OneHack is a 24-hour equal opportunity theme based hackathon where
             15 shortlisted teams with a maximum number of 4 members each compete
             to design and develop innovative projects/products, under the
-            mentorship of experts in various fields. The first edition of
-            Onehack conducted during Ritu'18, was met with an extremely positive
-            response. We are back again, with a promise to deliver something
-            bigger and vibrant. The theme of the hackathon will be unveiled on
-            the commencement of the event. Participants will have to forgo their
-            sleep for a night as they put in their skills to create astounding
-            and revolutionary products in the best ambient atmosphere one can
-            avail. At the end of the event, teams demonstrate their project to
-            fellow hackers/developers, visitors and a panel of judges. The
-            winners stand a chance to win exciting prizes and all participants
-            get to walk away with some cool swags and goodies.
+            mentorship of experts in various fields. The previous editions of
+            Onehack conducted during 2018 and 2020, were met with an extremely
+            positive responses. As 2022 unfolds beforee us, we are back again,
+            with a promise to deliver something bigger and vibrant. The theme of
+            the hackathon will be unveiled on the commencement of the event.
+            Participants will have to forgo their sleep for a night as they put
+            in their skills to create astounding and revolutionary products in
+            the best ambient atmosphere one can avail. At the end of the event,
+            teams demonstrate their project to fellow hackers/developers,
+            visitors and a panel of judges. The winners stand a chance to win
+            exciting prizes and all participants get to walk away with some cool
+            swags and goodies. The hackathon will be conducted at RIT, Pampady,
+            Kottayam from 14th May 2022 to 15th May 2022.
           </p>
+          <img
+            src="./images/IEDC-Logo-white.png"
+            class="hidden lg:block max-w-md rounded-lg shadow-2xl"
+          />
         </div>
       </div>
     </div>
+
+    <!-- Cards -->
+    <div
+      class="flex flex-col bg-base-200 justify-center items-center lg:items-stretch lg:flex-row"
+    >
+      <div class="card w-5/6 md:w-96 bg-base-100 shadow-xl m-4 md:m-7">
+        <div class="card-body">
+          <h2 class="card-title">About RIT</h2>
+          <p>
+            Rajiv Gandhi Institute of Technology named after the late Prime
+            Minister Shri Rajiv Gandhi, owned and managed by the Government of
+            Kerala, started functioning in 1991. It has highly qualified and
+            dedicated faculty. More than providing technical eduction, RIT aims
+            at the overall development for each and every student. The college
+            provides a positive environment for the students to develop their
+            potential and to excel in all walks of life. The college regenerates
+            itself in greater and higher dimensions of technology, articulating
+            scientific thirst and common necessities.
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card w-5/6 md:w-96 bg-base-100 shadow-xl m-4 md:m-7">
+        <div class="card-body">
+          <h2 class="card-title">About IEDC</h2>
+          <p>
+            Innovation and Entrepreneurship Development Centre (IEDC) is a
+            flagship initiative of Kerala Startup Mission to promote innovation
+            and entrepreneurship among the student and academic fraternity in
+            the educational institutions in the State of Kerala and considered
+            as an umbrella programme that would play an instrumental role in
+            fostering innovation culture in Academic institutions.
+          </p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Contact</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sponsor -->
+    <h1 class="text-5xl font-bold text-center py-10">Sponsors</h1>
+    <p class="text-2xl text-center pb-10">Coming soon..</p>
 
     <!-- Footer -->
     <footer class="footer p-10 bg-neutral text-neutral-content">
@@ -126,5 +180,7 @@
       </div>
       <img src="./images/ksum.png" alt="ksum logo" width="200px" />
     </footer>
+    <script type="text/javascript" src="./scripts/particles.js"></script>
+    <script type="text/javascript" src="./scripts/app.js"></script>
   </body>
 </html>
