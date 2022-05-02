@@ -3592,6 +3592,10 @@ body[dir="rtl"] .checkbox:checked,
     padding-right: 2.5rem;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
