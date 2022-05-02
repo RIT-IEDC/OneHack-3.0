@@ -2925,6 +2925,14 @@ body[dir="rtl"] .checkbox:checked,
   z-index: auto;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .m-6 {
   margin: 1.5rem;
 }
@@ -3165,12 +3173,20 @@ body[dir="rtl"] .checkbox:checked,
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
 
 .items-stretch {
   align-items: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
